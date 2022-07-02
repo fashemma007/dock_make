@@ -1,7 +1,7 @@
 cmd1:
-	echo "command 1"
+	@echo "$@"
 
 cmd2:
-	echo "command 2"
+	@echo "$@"
 
 all: cmd1 cmd2
